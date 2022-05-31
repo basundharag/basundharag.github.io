@@ -1,2 +1,3 @@
 name: Basundhara Ghosh, DST-INSPIRE Faculty
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
