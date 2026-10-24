@@ -40,3 +40,14 @@
   window.addEventListener('resize', resize);
   requestAnimationFrame(draw);
 })();
+
+// Mobile menu toggle
+(function () {
+  const b = document.querySelector('.menu-toggle');
+  const n = document.querySelector('nav');
+  if (!b || !n) return;
+  b.addEventListener('click', () => {
+    const open = n.classList.toggle('open');
+    b.setAttribute('aria-expanded', open);
+  });
+})();
