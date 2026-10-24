@@ -177,3 +177,5 @@ nav .menu { display: flex; flex-wrap: wrap; gap: 6px 22px; align-items: baseline
   nav .menu a.link { padding: 10px 2px; border-bottom: 1px solid rgba(243,234,210,.12); font-size: 1rem; }
   nav .menu a.link[aria-current="page"] { border-bottom-color: rgba(243,234,210,.12); color: var(--accent); }
 }
+
+.more { margin-top: 12px; font-size: .95rem; }
